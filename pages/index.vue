@@ -1,27 +1,25 @@
 <template>
   <div>
     <Search />
+    <LeaderboardTime />
     <LeaderboardHeader />
     <LeaderboardUser />
-  </div>  
+  </div>
 </template>
 
 <script>
 export default {
-  head(){
+  head() {
     return {
-      title: 'Ranking',
-      meta: [{
-        name: 'description',
-        content: 'This is a homepage!',
-        hid: 'description'
-      }]
-    }
+      title: "Ranking",
+      meta: [
+        {
+          name: "description",
+          content: "This is a homepage!",
+          hid: "description",
+        },
+      ],
+    };
   },
-  data(){
-    return {
-      
-    }
-  },
-}
+};
 </script>
